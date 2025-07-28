@@ -1,10 +1,11 @@
-import img from "./assets/2.png";
+import Books from "./components/Books";
+import Layout from "./layouts/Layout";
+
 function App() {
   return (
-    <div>
-      <h1>Booki App</h1>
-      <img src={img} alt="" />
-    </div>
+    <Layout>
+      <Books />
+    </Layout>
   );
 }
 
